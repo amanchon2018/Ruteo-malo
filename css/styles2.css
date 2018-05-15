@@ -1,0 +1,326 @@
+.lista-hambu {
+  font-family: Bebas Neue;
+  color: #fff;
+  font-size: 30px;
+  margin-top: 10px;
+
+}
+#content {
+  width: 500px;
+  margin: 0 auto;
+
+}
+#inici {
+  text-align: center;
+}
+  #barrainici {
+    background-color: #cb2623;
+    height: 60px;
+    margin-top: -39px;
+
+  }
+
+  #barrainici p {
+    font-family: Bebas Neue;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+
+  }
+
+  #inici h1 {
+    text-align: center;
+    font-family: Bebas Neue;
+    color: #3c3c3b;
+    font-size: 50px;
+  }
+
+#casual {
+  height: 100px;
+  width: 200px;
+  margin-top: 30px;
+  float: left;
+}
+#totterreny {
+  height: 100px;
+  width: 200px;
+  margin-top: 30px;
+
+}
+#boto {
+  height: 30px;
+  width: 100px;
+  background-color: #3c3c3b;
+  margin-top: 20px;
+  border-radius: 20px;
+  margin-left: 300px;
+}
+#boto p {
+  color: white;
+  text-align: center;
+  font-family: Bebas Neue;
+  padding: 5px;
+
+}
+#boto2 {
+  height: 30px;
+  width: 100px;
+  background-color: #3c3c3b;
+  margin-top: -45px;
+  border-radius: 20px;
+  margin-left: 45px;
+
+}
+#boto2 p {
+  color: white;
+  text-align: center;
+  font-family: Bebas Neue;
+  padding: 5px;
+}
+#classic {
+  height: 100px;
+  width: 200px;
+  margin-top: 30px;
+  float: left;
+}
+#deportiu {
+  height: 100px;
+  width: 200px;
+  margin-top: 30px;
+
+}
+#boto3 {
+  height: 30px;
+  width: 100px;
+  background-color: #3c3c3b;
+  margin-top: 20px;
+  border-radius: 20px;
+  margin-left: 45px;
+
+}
+#boto3 p {
+  color: white;
+  text-align: center;
+  font-family: Bebas Neue;
+  padding: 5px;
+}
+#boto4 {
+  height: 30px;
+  width: 100px;
+  background-color: #3c3c3b;
+  margin-top: -48px;
+  border-radius: 20px;
+  margin-left: 300px;
+}
+#boto4 p {
+  color: white;
+  text-align: center;
+  font-family: Bebas Neue;
+  padding: 5px;
+}
+#boto5 {
+  height: 30px;
+  width: 100px;
+  background-color: #3c3c3b;
+  margin-top: 20px;
+  border-radius: 20px;
+  margin-left: 45px;
+}
+#boto5 p {
+  color: white;
+  text-align: center;
+  font-family: Bebas Neue;
+  padding: 5px;
+}
+#boto6 {
+  height: 30px;
+  width: 100px;
+  background-color: #3c3c3b;
+  margin-top: -46px;
+  border-radius: 20px;
+  margin-left: 300px;
+}
+#boto6 p {
+  color: white;
+  text-align: center;
+  font-family: Bebas Neue;
+  padding: 5px;
+
+}
+#descens {
+  height: 100px;
+  width: 200px;
+  margin-top: 30px;
+  float: left;
+}
+#passeig {
+  height: 100px;
+  width: 200px;
+  margin-top: 30px;
+}
+#btt {
+  height: 100px;
+  width: 200px;
+  margin-top: 30px;
+  float: left;
+}
+#carretera {
+  height: 100px;
+  width: 200px;
+  margin-top: 30px;
+}
+#custom {
+  height: 100px;
+  width: 200px;
+  margin-top: 30px;
+  float: left;
+}
+#classica {
+  height: 100px;
+  width: 200px;
+  margin-top: 30px;
+}
+#ofroad {
+  height: 100px;
+  width: 200px;
+  margin-top: 30px;
+  float: left;
+}
+#scooter {
+  height: 100px;
+  width: 200px;
+  margin-top: 30px;
+}
+#deportiva {
+  height: 100px;
+  width: 200px;
+  margin-top: 30px;
+  float: left;
+}
+#trail {
+  height: 100px;
+  width: 200px;
+  margin-top: 30px;
+}
+.switch{
+  postion: relative;
+  display:inline-block;
+  width: 40px;
+  height:20px;
+  float: right;
+  margin-top: 10px;
+ }
+
+.switch input {display:none;}
+
+.slider{
+position: absolute;
+cursor: pointer;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: #ccc;
+-webkit-transition:.4s;
+transition: .4s;
+}
+
+.slider:before{
+position: absolute;
+content: "";
+height: 20px;
+width: 20px;
+background-color: white;
+-webkit-transition:.4s;
+transition: .4s;
+}
+
+input:checked + .slider {
+background-color: #2196F3;
+}
+input: focus + .slider {
+box-shadow: 0 02px #2196F3;
+}
+
+input:checked + .slider:before{
+-webkit-transform: translatex (26px);
+-ms-transform: translates(26px);
+transform: translatex(26px);
+}
+/* Rounded sliders*/
+.slider.round{
+border-radius: 34px;
+}
+.slider.round:before{
+border-radius:50%;
+}
+
+/* Hamburguesa ----------*/
+
+#navegacio {
+padding-top: 40px;
+width:200px;
+height: 700px;
+top: 0 ;
+right:0;
+bottom: 0 ;
+left :-270px;
+border-color: #3c3c3b;
+list-style: none;
+position: absolute;
+z-index: 1;
+background-color: #3c3c3b;
+
+}
+
+
+.activador{
+position: fixed;
+background-color: yellow;
+}
+
+label[for="activador"]{
+position:fixed;
+left:15px;
+z-index:600;
+width:60px;
+height:60px;
+cursor:pointer;
+background-size:100%;
+background-image: url(../img/menu.png);
+background-repeat: no-repeat;
+}
+
+label[fot="activador"]::after{
+color; #ffffff
+display:block;
+width:30px;
+height: 30px;
+font-size: 50px;
+line-height: 7px;
+text-align: center;
+}
+.activador:checked + label {left:270px;}
+.activador:checked ~ .navegacio {left: 200px;}
+.activador + label {
+transition: left 0.3s;
+}
+
+.tot {
+position: relative;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+z-index: 0;
+}
+
+.content {
+width: 100%;
+height: 100%;
+top: 0;
+right:0;
+left: 0;
+bottom: 0;
+z-index: -3;
+}

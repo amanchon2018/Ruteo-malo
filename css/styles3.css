@@ -1,0 +1,292 @@
+.lista-hambu {
+  font-family: Bebas Neue;
+  color: #fff;
+  font-size: 30px;
+  margin-top: 10px;
+
+}
+#content {
+  width: 500px;
+  margin: 0 auto;
+
+}
+#calendari{
+  text-align: center;
+}
+  #barrainici {
+    background-color: #cb2623;
+    height: 60px;
+    margin-top: -39px;
+
+  }
+  #barrainici2 {
+    background-color: #3c3c3b;
+    height: 80px;
+    margin-top: 0px;
+
+  }
+
+  #barrainici p {
+    font-family: Bebas Neue;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+
+  }
+  #cercar input {
+    height: 50px;
+    width: 700px;
+    border-radius: 20px;
+    background-color: #fff ;
+    font-family: Bebas Neue;
+    color: #3c3c3b;
+    font-size: 40px;
+    text-indent: 20px;
+    margin-top: 11px;
+    text-align: center;
+    margin-left: 520px;
+  }
+  #lupa {
+    height: 30px;
+    width: 30px;
+    float: left;
+    margin-left: 1000px;
+    margin-top: 10px;
+  }
+#select1 {
+  font-family: Bebas Neue;
+  color: #3c3c3b;
+  margin-top: 20px;
+
+
+}
+option {
+  font-size: 20px;
+  font-family: Bebas Neue;
+}
+#ordenar {
+  font-size: 20px;
+  font-family: Bebas Neue;
+  color: #3c3c3b;
+  float: left;
+
+}
+#local {
+  font-size: 20px;
+  font-family: Bebas Neue;
+  color: #3c3c3b;
+
+  margin-left: 100px;
+}
+#select2 {
+  font-family: Bebas Neue;
+  color: #3c3c3b;
+  margin-top: 20px;
+  margin-left: 20px;
+
+}
+#boto {
+  height: 30px;
+  width: 100px;
+  background-color: #3c3c3b;
+  margin-left: 900px;
+  display: block;
+  border-radius: 20px;
+}
+#boto p {
+  color: white;
+  text-align: center;
+  font-family: Bebas Neue;
+  padding: 5px;
+}
+#ruta1 {
+  font-family: Bebas Neue;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+#barrainici3 {
+  background-color: #3c3c3b;
+  height: 60px;
+  margin-top: -40px;
+}
+#mapa {
+  margin-top: 20px;
+  margin-left: 350px;
+}
+#mapa1 {
+  margin-top: 20px;
+  margin-left: 250px;
+}
+#mapa2 {
+  margin-top: 20px;
+  margin-left: 250px;
+}
+b {
+  font-family: Helvetica;
+  font-size: 15px;
+}
+#negreta b {
+  margin-left: 250px;
+  float: left;
+  margin-right: 5px;
+}
+#negreta p {
+  font-family: Helvetica;
+  font-size: 15px;
+  margin-left: 250px;
+}
+#botoruta {
+  height: 30px;
+  width: 100px;
+  background-color: #3c3c3b;
+  margin-left: 250px;
+  display: block;
+  border-radius: 20px;
+  float: left;
+}
+#botoruta p {
+  color: white;
+  text-align: center;
+  font-family: Bebas Neue;
+  margin-left: 0px;
+}
+#botoruta2 {
+  height: 30px;
+  width: 100px;
+  background-color: #3c3c3b;
+  margin-left: 450px;
+  display: block;
+  border-radius: 20px;
+
+}
+#botoruta2 p {
+  color: white;
+  text-align: center;
+  font-family: Bebas Neue;
+  padding: 5px;
+  margin-left: 0px;
+}
+.switch{
+  postion: relative;
+  display:inline-block;
+  width: 40px;
+  height:20px;
+  float: right;
+  margin-top: 10px;
+ }
+
+.switch input {display:none;}
+
+.slider{
+position: absolute;
+cursor: pointer;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: #ccc;
+-webkit-transition:.4s;
+transition: .4s;
+}
+
+.slider:before{
+position: absolute;
+content: "";
+height: 20px;
+width: 20px;
+background-color: white;
+-webkit-transition:.4s;
+transition: .4s;
+}
+
+input:checked + .slider {
+background-color: #2196F3;
+}
+input: focus + .slider {
+box-shadow: 0 02px #2196F3;
+}
+
+input:checked + .slider:before{
+-webkit-transform: translatex (26px);
+-ms-transform: translates(26px);
+transform: translatex(26px);
+}
+/* Rounded sliders*/
+.slider.round{
+border-radius: 34px;
+}
+.slider.round:before{
+border-radius:50%;
+}
+
+/* Hamburguesa ----------*/
+
+#navegacio {
+padding-top: 40px;
+width:200px;
+height: 700px;
+top: 0 ;
+right:0;
+bottom: 0 ;
+left :-270px;
+border-color: #3c3c3b;
+list-style: none;
+position: absolute;
+z-index: 1;
+background-color: #3c3c3b;
+
+}
+
+
+.activador{
+position: fixed;
+background-color: yellow;
+}
+
+label[for="activador"]{
+position:fixed;
+left:15px;
+z-index:600;
+width:60px;
+height:60px;
+cursor:pointer;
+background-size:100%;
+background-image: url(../img/menu.png);
+background-repeat: no-repeat;
+}
+
+label[fot="activador"]::after{
+color; #ffffff
+display:block;
+width:30px;
+height: 30px;
+font-size: 50px;
+line-height: 7px;
+text-align: center;
+}
+.activador:checked + label {left:270px;}
+.activador:checked ~ .navegacio {left: 200px;}
+.activador + label {
+transition: left 0.3s;
+}
+
+.tot {
+position: relative;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+z-index: 0;
+}
+
+.content {
+width: 100%;
+height: 100%;
+top: 0;
+right:0;
+left: 0;
+bottom: 0;
+z-index: -3;
+}
